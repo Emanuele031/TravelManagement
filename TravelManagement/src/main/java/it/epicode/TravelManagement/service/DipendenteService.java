@@ -5,7 +5,7 @@ package it.epicode.TravelManagement.service;
 import com.cloudinary.Cloudinary;
 import it.epicode.TravelManagement.dto.DipendenteDTO;
 import it.epicode.TravelManagement.entities.Dipendente;
-import it.epicode.TravelManagement.Exception.ResourceNotFoundException;
+import it.epicode.TravelManagement.exception.ResourceNotFoundException;
 import it.epicode.TravelManagement.repository.DipendenteRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

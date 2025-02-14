@@ -1,4 +1,4 @@
-package it.epicode.TravelManagement.Exception;
+package it.epicode.TravelManagement.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

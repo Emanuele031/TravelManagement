@@ -1,4 +1,4 @@
-package it.epicode.TravelManagement.Exception;
+package it.epicode.TravelManagement.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {

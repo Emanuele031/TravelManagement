@@ -24,13 +24,11 @@ public class CloudinaryController {
             MultipartFile file) {
 
         try {
-            // folder è il nome della cartella dove l'immagine sarà salvata in cloudinary
-            // public_id rappresenta il nome dell'immagine
+
             Map result = cloudinary.uploader()
                     .upload(file.getBytes(),  Cloudinary.asMap("folder", "FS0824", "public_id", file.getOriginalFilename()));
 
-            // recupera dalla risposta di cloudinary l'url di visualizzazione dell'immagine
-            // che può essere memorizzata in un database
+
             String url = result.get("secure_url").toString();
 
         } catch (IOException e) {

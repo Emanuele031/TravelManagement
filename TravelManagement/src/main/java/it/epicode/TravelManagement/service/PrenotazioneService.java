@@ -4,7 +4,7 @@ import it.epicode.TravelManagement.dto.PrenotazioneDTO;
 import it.epicode.TravelManagement.entities.Prenotazione;
 import it.epicode.TravelManagement.entities.Viaggio;
 import it.epicode.TravelManagement.entities.Dipendente;
-import it.epicode.TravelManagement.Exception.ResourceNotFoundException;
+import it.epicode.TravelManagement.exception.ResourceNotFoundException;
 import it.epicode.TravelManagement.repository.PrenotazioneRepository;
 import it.epicode.TravelManagement.repository.ViaggioRepository;
 import it.epicode.TravelManagement.repository.DipendenteRepository;

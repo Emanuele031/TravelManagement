@@ -2,7 +2,7 @@ package it.epicode.TravelManagement.service;
 
 import it.epicode.TravelManagement.dto.ViaggioDTO;
 import it.epicode.TravelManagement.entities.Viaggio;
-import it.epicode.TravelManagement.Exception.ResourceNotFoundException;
+import it.epicode.TravelManagement.exception.ResourceNotFoundException;
 import it.epicode.TravelManagement.repository.ViaggioRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
